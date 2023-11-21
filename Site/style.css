@@ -100,6 +100,15 @@ footer p{
 
 /*CV*/
 
+#cv-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#cv-left{
+    background-color: #30638E;
+}
+
 #cv-left img{
     width: 10%;
     border-radius: 50%;
