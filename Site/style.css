@@ -8,32 +8,17 @@ header{
     margin: 0;
     background-color: #30638E;
     color: #f2eef2;
+    height: 115px;
+    margin-bottom: 10px;
 }
 
 header h1{
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    margin: 0 auto;
+    margin: auto;
     font-size: 50px;
 }
 
-header ul{
-    list-style: none;
-    padding: 0;
-}
-
-header a{
-    text-decoration: none;
-    color: #f2eef2;
-    font-size: 20px;
-}
-
-#nav-container{
-    display: grid;
-    grid-template-columns: auto;
-    text-align: center;
-    margin-bottom: 10px;
-}
 body{
     margin: 0;
 }
@@ -41,36 +26,65 @@ body{
 .width{
     margin: 0 10%;
     background-color: #f2eef2;
-    padding: 25px 0px;
+    padding: 306px 0px;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+#nav-container{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    text-align: left;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+
+#nav-container a{
+    text-decoration: none;
+    color: #30638E;
+    font-size: 20px;
 }
 footer{
     background-color: #30638E;
-    font-size: 20px;
+    height: 115px;
+    
 }
 footer p{
     text-align: center;
     color: #f2eef2;
     margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
 }
 #contact{
     text-align: center;
+    padding-bottom: 2px;
 }
 
 #contact ul{
     list-style-type: none;
     padding: 0;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
 
 #contact a{
     color:#f2eef2;
     text-decoration: none;
+    font-size: 20px;
 }
 
-#contact img{
+#linkedin{
     width: 2.5%;
     margin-bottom: -2px;
+}
+
+#mail{
+    width: 3.5%;
+    margin-bottom: -7px;
 }
