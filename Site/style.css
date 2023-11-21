@@ -32,7 +32,6 @@ body{
 .width{
     margin: 0 10%;
     background-color: #f2eef2;
-    padding: 306px 0px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -97,4 +96,11 @@ footer p{
 #mail{
     width: 3.5%;
     margin-bottom: -7px;
+}
+
+/*CV*/
+
+#cv-left img{
+    width: 10%;
+    border-radius: 50%;
 }
