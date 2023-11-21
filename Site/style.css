@@ -35,6 +35,7 @@ body{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    padding: 306px 0px;
 }
 #nav-container{
     display: grid;
@@ -110,7 +111,33 @@ footer p{
 }
 
 #cv-left img{
-    width: 10%;
+    width: 50%;
     border-radius: 50%;
-    margin: 20px;
+    margin: 20px 25%;
+}
+
+#cv-left p{
+    color: #f2eef2;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+#widths{
+    margin: 0 10%;
+    background-color: #f2eef2;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#titre-cv{
+    background-color: #30638E;
+}
+
+#titre-cv h1{
+    text-align: center;
+    color: #f2eef2;
+    font-size: 50px;
+    margin: 0px;
 }
