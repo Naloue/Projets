@@ -99,8 +99,26 @@ footer p{
     margin-bottom: -7px;
 }
 
+.contact-links{
+    padding-bottom: 10px;
+}
 /*CV*/
 
+.retour-menu-container{
+    margin: 20px 10%;
+}
+.retour-menu{
+    border: #30638E solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f2eef2;
+    text-decoration: none;
+}
+
+.retour-menu:hover{
+    background-color: lightgray;
+    text-decoration: underline;
+}
 #cv-container{
     display: grid;
     grid-template-columns: 20% 80%;
