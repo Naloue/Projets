@@ -9,33 +9,56 @@ img{
     max-width: 100%;
 }
 
-.some-page-wrapper {
+a{
+    text-decoration: none;
+}
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 100px;
     width: 70%;
     margin: 0 auto;
   }
   
-  .row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+.content {
+    position: relative;
+    transition: 1s;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     margin:10px;
     padding:10px;
     border-radius: 10px;
   }
+.content img{
+    transition: 1s;
+    display: block;
+    margin: 0 auto;
+}
 
-  .column h1,.column p{
+.content:hover{
+    background-color: #F7ACCF;
+}
+.content:hover img{
+    transform: translateX(-60%);
+}   
+  .content h1{
     text-align: center;
   }
-
+.content p{
+    position: absolute;
+    right:10px;
+    top:35%;
+    width:50%;
+    font-size: 25px;
+    float: right;
+    transition: 0.2s;
+    opacity: 0;
+}
+.content:hover p{
+    transition: 1s;
+    opacity: 1;
+}
 
 /*Header*/
 
@@ -85,12 +108,34 @@ img{
 
 /*footer*/
 footer {
+	color: #e8f0ff;
 	overflow: hidden;
-	background-color: red;
+	background-color: #392759;
 }
-footer div a {
+footer div.flexbox a {
 	float: right;
+	text-decoration: none;
+	color: #e8f0ff;
+	font-size: 1.25rem;
 }
 .logo {
 	float: left;
+	width: 20%;
+}
+.flexbox {
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.conteneur {
+	float: left;
+	width: 80%;
+}
+footer div p {
+	text-align: center;
+}
+.baton {
+	background-color: red;
+	width: 50%;
+	margin: 0 auto;
 }
