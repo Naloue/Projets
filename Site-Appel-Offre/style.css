@@ -1,10 +1,30 @@
-.content1{
+img{
+    max-width: 100%;
+}
+
+.some-page-wrapper {
+    margin: 15px;
+  }
+  
+  .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+<<<<<<< Updated upstream
 }
 main .person{
 
 }
 
 /*Header*/
+=======
+    width: 100%;
+  }
+  
+  .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+>>>>>>> Stashed changes
