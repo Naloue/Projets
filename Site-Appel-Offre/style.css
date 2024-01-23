@@ -48,11 +48,12 @@ img {
 
 /*footer*/
 footer {
-	display: flex;
+	overflow: hidden;
 	background-color: red;
-	justify-content: flex-end;
 }
 footer div a {
-	display: flex;
-	justify-content: flex-end;
+	float: right;
+}
+.logo {
+	float: left;
 }
