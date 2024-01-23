@@ -4,27 +4,33 @@ img{
 
 .some-page-wrapper {
     margin: 15px;
+    width: 800px;
+    margin: 0 auto;
   }
   
   .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-<<<<<<< Updated upstream
-}
-main .person{
-
 }
 
-/*Header*/
-=======
-    width: 100%;
-  }
-  
-  .column{
+.column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
   }
->>>>>>> Stashed changes
+
+  .column h1{
+    text-align: center;
+  }
+
+
+/*Header*/
+
+.menu_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
