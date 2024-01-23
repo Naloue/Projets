@@ -10,48 +10,15 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="style.css" />
-		<title>FAEGroup | Édute et Production</title>
+		<script src="function_includeHTML.js"></script>
+		<title>FAEGroup | Accueil</title>
 	</head>
 	<body>
-		<header>
-			<div class="logo_header_container">
-				<img class="logo_header" src="images/logo_faeg_sombre.png" alt="Logo FAEGroup">
-                <h1>FAE Group</h1>
-			</div>
-			<div class="menu_container">
-                <a href="index.html">Accueil</a>
-				<a href="direction.html">Direction</a>
-				<a href="secretaire.html">Secrétaire</a>
-				<a href="comptabilite.html">Comptabilité</a>
-				<a href="commercial.html">Commercial</a>
-				<a href="production.html">Production</a>
-				<a href="stockage.html">Stockage</a>
-				<a href="total.html">Total</a>
-			</div>
-		</header>
-        <main>
-
-        </main>
-        <footer>
-			<div>
-				<img class="logo" src="images/logo_faeg_clair.png" alt="logo" />
-				<div class="conteneur">
-					<div class="flexbox">
-						<a href="index.html">Accueil</a>
-						<a href="apropos.html">A propos</a>
-						<a href="contact.html">Contact</a>
-					</div>
-					<div>
-						<br />
-						<p id="adresse">1 Bd de l'Université, 44600 Saint-Nazaire</p>
-						<p id="credit">
-							Fae Group © 2024 |
-							<a href="mention_legal.html">Mentions Légales</a> |
-							<a href="confidientialité.html">Confidentialité</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<header w3-include-html="header.html"></header>
+		<main></main>
+		<footer w3-include-html="footer.html"></footer>
+		<script>
+			includeHTML();
+		</script>
 	</body>
 </html>

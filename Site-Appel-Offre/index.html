@@ -10,25 +10,11 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="style.css" />
+		<script src="function_includeHTML.js"></script>
 		<title>FAEGroup | Accueil</title>
 	</head>
 	<body>
-		<header>
-			<div class="logo_header_container">
-				<img class="logo_header" src="images/logo_faeg_sombre.png" alt="Logo FAEGroup">
-                <h1>FAE Group</h1>
-			</div>
-			<div class="menu_container">
-                <a href="index.html">Accueil</a>
-				<a href="direction.html">Direction</a>
-				<a href="secretaire.html">Secrétaire</a>
-				<a href="comptabilite.html">Comptabilité</a>
-				<a href="commercial.html">Commercial</a>
-				<a href="production.html">Production</a>
-				<a href="stockage.html">Stockage</a>
-				<a href="total.html">Total</a>
-			</div>
-		</header>
+		<header w3-include-html="header.html"></header>
 		<main>
 			<div class="flex-wrapper">
 				<a href="direction.html">
@@ -37,80 +23,82 @@
 						<img src="images/employe.png" alt="" />
 						<p>
 							Un rôle fondamental dans l’entreprise.
-                            <br>
-                            La fonction de Direction et Administration générale est une fonction que l’on se représente généralement bien.
-                            <br>
-                            Souvent associée au personnage du directeur, elle n’a été envisagée comme une science que depuis quelques décennies. Or son rôle est des plus importants dans l’entreprise.
+							<br />
+							La fonction de Direction et Administration générale est une
+							fonction que l’on se représente généralement bien.
+							<br />
+							Souvent associée au personnage du directeur, elle n’a été
+							envisagée comme une science que depuis quelques décennies. Or son
+							rôle est des plus importants dans l’entreprise.
 						</p>
 					</div>
 				</a>
-                <a href="secretaire.html">
+				<a href="secretaire.html">
 					<div class="content">
 						<h1>Secrétaire</h1>
 						<img src="images/employee.png" alt="" />
 						<p>
-							La secrétaire est l'interlocutrice incontournable d'un service ou d'une entreprise. Tout transite par elle : accueil de visiteurs, messages téléphoniques, prise de rendez-vous, rédaction du courrier... Sans répit, ell passe du classement de dossiers à la saisie de texte ou du budget.
+							La secrétaire est l'interlocutrice incontournable d'un service ou
+							d'une entreprise. Tout transite par elle : accueil de visiteurs,
+							messages téléphoniques, prise de rendez-vous, rédaction du
+							courrier... Sans répit, ell passe du classement de dossiers à la
+							saisie de texte ou du budget.
 						</p>
 					</div>
 				</a>
-                <a href="comptabilite.html">
+				<a href="comptabilite.html">
 					<div class="content">
 						<h1>Comptabilité</h1>
 						<img src="images/employe.png" alt="" />
 						<p>
-							La gestion comptable d'une entreprise est le lien entre toutes les données relatives à l'entreprise et les rapports financiers. Elle sert également de système d'information de gestion pour les opérations d'une entreprise et fournit des données pour la prise de décision par la direction de l'entreprise.
+							La gestion comptable d'une entreprise est le lien entre toutes les
+							données relatives à l'entreprise et les rapports financiers. Elle
+							sert également de système d'information de gestion pour les
+							opérations d'une entreprise et fournit des données pour la prise
+							de décision par la direction de l'entreprise.
 						</p>
 					</div>
 				</a>
-                <a href="commercial.html">
+				<a href="commercial.html">
 					<div class="content">
 						<h1>Commercial</h1>
 						<img src="images/employee.png" alt="" />
 						<p>
-							L'organisation commerciale concerne la force de vente dont la fonction principale est de vendre les produits ou services de votre entreprise grâce à divers contacts avec les clients potentiels, des distributeurs ou prescripteurs de ces produits.
+							L'organisation commerciale concerne la force de vente dont la
+							fonction principale est de vendre les produits ou services de
+							votre entreprise grâce à divers contacts avec les clients
+							potentiels, des distributeurs ou prescripteurs de ces produits.
 						</p>
 					</div>
 				</a>
-                <a href="production.html">
+				<a href="production.html">
 					<div class="content">
 						<h1>Production</h1>
 						<img src="images/employe.png" alt="" />
 						<p>
-							La fonction Production englobe l'ensemble des activités qui transforment des matières premières et composants en produits vendus aux clients.
+							La fonction Production englobe l'ensemble des activités qui
+							transforment des matières premières et composants en produits
+							vendus aux clients.
 						</p>
 					</div>
 				</a>
-                <a href="stockage.html">
+				<a href="stockage.html">
 					<div class="content">
 						<h1>Stockage</h1>
 						<img src="images/employe.png" alt="" />
 						<p>
-							Le stockage est un ensemble d'activités qui composent le processus de stockage séparés des autres processus réalisés par l`entreprise. Le stockage est une activité dont la fonction est constituer temporairement les marchandises et les stocker.
+							Le stockage est un ensemble d'activités qui composent le processus
+							de stockage séparés des autres processus réalisés par
+							l`entreprise. Le stockage est une activité dont la fonction est
+							constituer temporairement les marchandises et les stocker.
 						</p>
 					</div>
 				</a>
 			</div>
 		</main>
-		<footer>
-			<div>
-				<img class="logo" src="images/logo_faeg_clair.png" alt="logo" />
-				<div class="conteneur">
-					<div class="flexbox">
-						<a href="index.html">Accueil</a>
-						<a href="apropos.html">A propos</a>
-						<a href="contact.html">Contact</a>
-					</div>
-					<div>
-						<br />
-						<p id="adresse">1 Bd de l'Université, 44600 Saint-Nazaire</p>
-						<p id="credit">
-							Fae Group © 2024 |
-							<a href="mention_legal.html">Mentions Légales</a> |
-							<a href="confidientialité.html">Confidentialité</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<footer w3-include-html="footer.html"></footer>
+		<script>
+			includeHTML();
+		</script>
 	</body>
 </html>
