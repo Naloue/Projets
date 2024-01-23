@@ -38,14 +38,9 @@ a {
 .content:hover {
 	background-color: #f7accf;
 }
-<<<<<<< Updated upstream
 .content:hover img {
 	transform: translateX(-60%);
-=======
-.content:hover img{
-    transform: translateX(-60%);
-}   
-
+}
 
   .content h1{
     text-align: center;
@@ -59,7 +54,6 @@ a {
     float: right;
     transition: 0.2s;
     opacity: 0;
->>>>>>> Stashed changes
 }
 .content h1 {
 	text-align: center;
@@ -85,7 +79,7 @@ a {
 	width: 100%;
 	background-color: #2b2d42;
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
 	text-align: center;
 }
 
@@ -127,6 +121,17 @@ a {
 	width: 100%;
 }
 
+.logo_header{
+  display: block;
+  width: 5%;
+}
+
+.logo_header_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
 /*footer*/
 footer {
 	color: #e8f0ff;
