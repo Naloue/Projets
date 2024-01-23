@@ -41,9 +41,7 @@ a {
 .content:hover img {
 	transform: translateX(-60%);
 }
-a,a:active,a:visited{
-	color:#392759;
-}
+
   .content h1{
     text-align: center;
   }
