@@ -174,3 +174,22 @@ footer div p {
 	display: flex;
 	flex-direction: row;
 }
+
+.contentleft:hover img {
+	transform: translateX(-60%);
+}
+
+.contentright:hover img {
+	transform: translateX(60%);
+}
+
+.contentright p{
+    position: absolute;
+    left:10px;
+    top:20%;
+    width:50%;
+    font-size: 25px;
+    float: right;
+    transition: 0.2s;
+    opacity: 0;
+}
