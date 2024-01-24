@@ -169,3 +169,8 @@ footer div p {
 	text-decoration: none;
 	color: #e8f0ff;
 }
+
+.flex-wrapper .row{
+	display: flex;
+	flex-direction: row;
+}
