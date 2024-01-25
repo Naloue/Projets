@@ -238,5 +238,6 @@ footer div p {
 	grid-template-columns: auto auto;
 }
 .flex-wrapper p{
-	font-size: 10px;
+	font-size: 18px;
+	text-align: justify;
 }
