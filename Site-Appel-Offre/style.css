@@ -3,6 +3,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0;
 	background-color: #f8faff;
+	overflow-x: hidden;
 }
 
 img {
@@ -225,4 +226,14 @@ footer div p {
 	border: 1px solid #ddd
 }
 
+.grid_wrapper{
+	display: grid;
+	grid-template-rows: auto;
+	width: 1000px;
+	margin: 0 auto;
+}
 
+.grid_wrapper .row{
+	display: grid;
+	grid-template-columns: auto auto;
+}
