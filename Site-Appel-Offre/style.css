@@ -237,3 +237,6 @@ footer div p {
 	display: grid;
 	grid-template-columns: auto auto;
 }
+.flex-wrapper p{
+	font-size: 10px;
+}
