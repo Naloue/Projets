@@ -276,3 +276,7 @@ footer div p {
 	font-size: 18px;
 	text-align: justify;
 }
+
+.main_total{
+	height: 90vh;
+}
