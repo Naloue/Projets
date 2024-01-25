@@ -235,7 +235,7 @@ footer div p {
 
 .grid_wrapper .row{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 50% 50%;
 }
 .flex-wrapper p{
 	font-size: 18px;
