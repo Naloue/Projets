@@ -112,7 +112,7 @@ a {
 	width: 100%;
 	background-color: #2b2d42;
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto auto;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
 	text-align: center;
 }
 
