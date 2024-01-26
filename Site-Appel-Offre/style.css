@@ -1,9 +1,3 @@
-html,
-body {
-	padding: 0;
-	margin: 0;
-}
-
 body {
 	color: #392759;
 	font-family: "Poppins", sans-serif;
@@ -166,13 +160,13 @@ a {
 	margin: 10px 0;
 }
 /*footer*/
-footer {
+.footer {
 	color: #e8f0ff;
 	overflow: hidden;
 	background-color: #392759;
 	margin-top: 50px;
 }
-footer div.flexbox a {
+.footer div.flexbox a {
 	float: right;
 	text-decoration: none;
 	color: #e8f0ff;
@@ -200,7 +194,7 @@ footer div.flexbox a {
 	float: left;
 	width: 80%;
 }
-footer div p {
+.footer div p {
 	text-align: center;
 }
 #credit {
@@ -241,15 +235,15 @@ footer div p {
 	text-align: right;
 }
 
-.contentright{
+.contentright {
 	height: 560px;
 }
 
-.contentleft{
+.contentleft {
 	height: 560px;
 }
 
-.image_width{
+.image_width {
 	height: 400px;
 }
 /*Main*/
@@ -305,7 +299,6 @@ footer div p {
 /*contact*/
 .main_content {
 	max-width: 60%;
-	overflow: hidden;
 	margin: 0 auto;
 }
 #contact {
@@ -335,4 +328,23 @@ footer div p {
 	margin: 0 auto;
 	max-width: 50%;
 	float: left;
+}
+
+/*test*/
+html,
+body {
+	height: 100%;
+}
+.page-wrap {
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -212px;
+}
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+.site-footer,
+.page-wrap:after {
+	height: 212px;
 }
