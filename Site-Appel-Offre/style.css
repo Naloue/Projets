@@ -73,7 +73,10 @@ a {
 }
 
 /*Header*/
-
+.paproblem{
+	margin-left: 30px;
+	width: 130px;
+}
 .logo_header_container {
 	position: relative;
 }
