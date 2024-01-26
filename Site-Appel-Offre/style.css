@@ -369,3 +369,7 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
+.row a{
+	color: #573c82;
+}
