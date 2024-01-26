@@ -74,21 +74,10 @@ a {
 
 /*Header*/
 .paproblem{
-	margin-left: 30px;
+	margin-left: 8px;
+	padding-left: 8px;
 	width: 130px;
-}
-
-.container-yapaproblem{
-	margin: 0 auto;
-	text-align: center;
-}
-
-.container-yapaproblem hr{
-	margin: 10px auto;
-	width: 20%;
-	color: #573c82;
-	background-color: #573c82;
-	height: 2px;
+	border-left: #573c82 solid 2px;
 }
 
 .logo_header_container {
