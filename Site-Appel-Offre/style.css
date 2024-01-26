@@ -233,6 +233,18 @@ footer div p {
     opacity: 0;
 	text-align: right;
 }
+
+.contentright{
+	height: 560px;
+}
+
+.contentleft{
+	height: 560px;
+}
+
+.image_width{
+	height: 400px;
+}
 /*Main*/
 
 .tableau{
