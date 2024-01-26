@@ -349,3 +349,9 @@ footer div p {
 	max-width: 50%;
 	float: left;
 }
+
+.margin_content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
