@@ -73,7 +73,10 @@ a {
 }
 
 /*Header*/
-
+.paproblem{
+	margin-left: 30px;
+	width: 130px;
+}
 .logo_header_container {
 	position: relative;
 }
@@ -234,13 +237,23 @@ footer div p {
 	left: 10px;
 	top: 20%;
 	width: 50%;
-	font-size: 25px;
+	font-size: 20px;
 	float: right;
 	transition: 0.2s;
 	opacity: 0;
 	text-align: right;
 }
-
+.contentleft p {
+	position: absolute;
+	right: 10px;
+	top: 20%;
+	width: 50%;
+	font-size: 20px;
+	float: right;
+	transition: 0.2s;
+	opacity: 0;
+	text-align: left;
+}
 .contentright{
 	height: 560px;
 }
