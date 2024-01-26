@@ -373,3 +373,6 @@ body {
 .row a{
 	color: #573c82;
 }
+.margin_content p{
+	margin:50px;
+}
