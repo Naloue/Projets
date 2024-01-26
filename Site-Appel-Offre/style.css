@@ -1,9 +1,17 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	color: #392759;
 	font-family: "Poppins", sans-serif;
 	margin: 0;
 	background-color: #f8faff;
 	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
 }
 
 img {
@@ -45,20 +53,19 @@ a {
 	transform: translateX(-60%);
 }
 
-  .content h1{
-    text-align: center;
-  }
-.content p{
-    position: absolute;
-    right:10px;
-    top:20%;
-    width:50%;
-    font-size: 25px;
-    float: right;
-    transition: 0.2s;
-    opacity: 0;
+.content h1 {
+	text-align: center;
 }
-
+.content p {
+	position: absolute;
+	right: 10px;
+	top: 20%;
+	width: 50%;
+	font-size: 25px;
+	float: right;
+	transition: 0.2s;
+	opacity: 0;
+}
 
 .content:hover p {
 	transition: 1s;
@@ -67,7 +74,7 @@ a {
 
 /*Header*/
 
-.logo_header_container{
+.logo_header_container {
 	position: relative;
 }
 
@@ -100,7 +107,6 @@ a {
 .logo_header_container a:hover:before {
 	width: 100%;
 }
-
 
 .menu_container {
 	width: 100%;
@@ -148,22 +154,23 @@ a {
 	width: 100%;
 }
 
-.logo_header{
-  display: block;
-  width: 96px;
+.logo_header {
+	display: block;
+	width: 96px;
 }
 
-.logo_header_container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
+.logo_header_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
 }
 /*footer*/
 footer {
 	color: #e8f0ff;
 	overflow: hidden;
 	background-color: #392759;
+	margin-top: 50px;
 }
 footer div.flexbox a {
 	float: right;
@@ -209,7 +216,7 @@ footer div p {
 	color: #e8f0ff;
 }
 
-.flex-wrapper .row{
+.flex-wrapper .row {
 	display: flex;
 	flex-direction: row;
 }
@@ -222,15 +229,15 @@ footer div p {
 	transform: translateX(60%);
 }
 
-.contentright p{
-    position: absolute;
-    left:10px;
-    top:20%;
-    width:50%;
-    font-size: 25px;
-    float: right;
-    transition: 0.2s;
-    opacity: 0;
+.contentright p {
+	position: absolute;
+	left: 10px;
+	top: 20%;
+	width: 50%;
+	font-size: 25px;
+	float: right;
+	transition: 0.2s;
+	opacity: 0;
 	text-align: right;
 }
 
@@ -247,7 +254,7 @@ footer div p {
 }
 /*Main*/
 
-.tableau{
+.tableau {
 	border-collapse: collapse;
 	margin: 20px auto;
 	width: 100%;
@@ -265,54 +272,56 @@ footer div p {
 	text-decoration: underline;
 }
 
-.tableau tr a{
+.tableau tr a {
 	text-decoration: underline;
 	color: #392759;
 }
 
-.tableau th, .tableau td{
+.tableau th,
+.tableau td {
 	padding: 10px;
-	border: 1px solid #ddd
+	border: 1px solid #ddd;
 }
 
-.grid_wrapper{
+.grid_wrapper {
 	display: grid;
 	grid-template-rows: auto;
 	width: 1000px;
 	margin: 0 auto;
 }
 
-.grid_wrapper .row{
+.grid_wrapper .row {
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
-.flex-wrapper p{
+.flex-wrapper p {
 	font-size: 18px;
 	text-align: justify;
 }
 
-.main_total{
+.main_total {
 	height: 90vh;
 }
 /*contact*/
-.main_contact{
-	max-width: 50%;
+main {
+	max-width: 60%;
 	overflow: hidden;
 	margin: 0 auto;
 }
-#contact{
+#contact {
 	text-align: center;
 }
-#form{
+#form {
 	margin: 0 auto;
 	float: left;
 	max-width: 50%;
+	padding-left: 10px;
 }
-.champ{
+.champ {
 	padding: 10px;
 	border: 1px solid lightgrey;
 }
-#bouton{
+#bouton {
 	display: inline-block;
 	padding: 10px 15px;
 	border-radius: 3px;
@@ -321,9 +330,9 @@ footer div p {
 	font-weight: 600;
 	border: none;
 }
-#coord{
+#coord {
 	padding-left: 30px;
 	margin: 0 auto;
 	max-width: 50%;
-	float:left;
+	float: left;
 }
